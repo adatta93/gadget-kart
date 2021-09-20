@@ -29,7 +29,7 @@ function ProductDetails({
   useEffect(() => {
     fetchProductDetails(id);
     console.log("hist", history);
-  }, [fetchProductDetails, id, history]);
+  }, [fetchProductDetails, id]);
 
   useEffect(() => {
     if (product && product.hasOwnProperty("title")) {

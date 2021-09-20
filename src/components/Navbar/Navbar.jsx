@@ -29,13 +29,14 @@ function Navbar({ loggedInUser, logout, cartItemCount }) {
             </NavLink>
           </li>
           <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-expanded="false">
-              Product Category
-            </a>
+			<button 
+			  className="nav-link btn btn-light dropdown-toggle" 
+			  type="button" 
+			  id="dropdownMenuButton" 
+			  data-toggle="dropdown"
+			  aria-expanded="false">
+			  Product Category
+			</button>
             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <NavLink
                 className="dropdown-item"
