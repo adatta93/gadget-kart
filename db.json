@@ -1,0 +1,491 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Redmi 9 Prime",
+      "img": "redmi-9-prime.jpeg",
+      "category": "mobile",
+      "price": 11000,
+      "processor": "MediaTek Helio G80",
+      "ram": "4GB",
+      "memory": "64GB",
+      "camera": "13MP Rear Camera + 8MP Front Camera",
+      "screen": "6.5in Full HD+ Display",
+      "battery": "5000mAh"
+    },
+    {
+      "title": "Mi 10",
+      "img": "mi-10.jpeg",
+      "category": "mobile",
+      "price": 55200,
+      "processor": "Qualcomm Snapdragon 865",
+      "ram": "8GB",
+      "memory": "256GB",
+      "camera": "108MP + 13MP + 2MP + 2MP Rear Camera + 20MP Front Camera",
+      "screen": "6.7in Full HD+ AMOLED Display",
+      "battery": "4780mAh",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy M31",
+      "img": "galaxy-m31.jpeg",
+      "category": "mobile",
+      "price": 17500,
+      "processor": "Exynos 9611",
+      "ram": "6GB",
+      "memory": "64GB",
+      "camera": "64MP + 8MP + 5MP + 5MP Rear Camera + 32MP Front Camera",
+      "screen": "6.4in AMOLED Display",
+      "battery": "6000mAh"
+    },
+    {
+      "id": 4,
+      "title": "Samsung Galaxy Note 9",
+      "img": "samsung-galaxy-note-9.jpeg",
+      "category": "mobile",
+      "price": 93000,
+      "processor": "Exynos 9810",
+      "ram": "8GB",
+      "memory": "512GB",
+      "camera": "12MP + 12MP Rear Camera + 8MP Front Camera",
+      "screen": "6.4in Quad HD+ Super AMOLED Display",
+      "battery": "4000mAh"
+    },
+    {
+      "id": 5,
+      "title": "Realme Narzo 20",
+      "img": "realme-narzo-20.jpeg",
+      "category": "mobile",
+      "price": 10500,
+      "processor": "MediaTek Helio G85",
+      "ram": "4GB",
+      "memory": "64GB",
+      "camera": "48MP + 8MP + 2MP Rear Camera + 8MP Front Camera",
+      "screen": "6.5in HD+ Display",
+      "battery": "6000mAh"
+    },
+    {
+      "id": 6,
+      "title": "Realme 7 Pro",
+      "img": "realme-7-pro.jpeg",
+      "category": "mobile",
+      "price": 22000,
+      "processor": "Qualcomm Snapdragon 720G",
+      "ram": "8GB",
+      "memory": "128GB",
+      "camera": "64MP + 8MP + 2MP + 2MP Rear Camera + 32MP Front Camera",
+      "screen": "6.4in Full HD+ Display",
+      "battery": "4500mAh"
+    },
+    {
+      "id": 7,
+      "title": "Vivo Y50",
+      "img": "vivo-y50.jpeg",
+      "category": "mobile",
+      "price": 16500,
+      "processor": "Qualcomm Snapdragon 665",
+      "ram": "8GB",
+      "memory": "128GB",
+      "camera": "13MP + 8MP + 2MP + 2MP Rear Camera + 16MP Front Camera",
+      "screen": "6.5in HD+ Display",
+      "battery": "5000mAh"
+    },
+    {
+      "id": 8,
+      "title": "Motorola G9",
+      "img": "motorola-g9.jpeg",
+      "category": "mobile",
+      "price": 11000,
+      "processor": "Qualcomm Snapdragon 662",
+      "ram": "4GB",
+      "memory": "64GB",
+      "camera": "48MP + 2MP + 2MP Rear Camera + 8 MP Front Camera",
+      "screen": "6.5in HD+ Display",
+      "battery": "5000mAh"
+    },
+    {
+      "id": 9,
+      "title": "HP 14 Core i5 10th Gen",
+      "img": "hp14.jpeg",
+      "category": "laptop",
+      "price": 47500,
+      "processor": "Intel Core i5 10th Gen",
+      "ram": "8GB",
+      "memory": "512GB SSD",
+      "screen": "14in Display",
+      "weight": "1.47kg"
+    },
+    {
+      "id": 10,
+      "title": "HP 15 Ryzen 3 Dual Core 3200U",
+      "img": "hp15.jpeg",
+      "category": "laptop",
+      "price": 30000,
+      "processor": "Ryzen 3 Dual Core 3200U",
+      "ram": "4GB",
+      "memory": "1TB HDD",
+      "screen": "15.6in Display",
+      "weight": "2.04kg"
+    },
+    {
+      "id": 11,
+      "title": "HP Spectre x360 Core i7 10th Gen",
+      "img": "hp-spectre.jpeg",
+      "category": "laptop",
+      "price": 180000,
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "memory": "1TB SSD",
+      "screen": "13.3in Display",
+      "weight": "1.27kg"
+    },
+    {
+      "id": 12,
+      "title": "Apple MacBook Pro Core i9 8th Gen",
+      "img": "apple-mcbook.jpeg",
+      "category": "laptop",
+      "price": 210000,
+      "processor": "Intel Core i9 8th Gen",
+      "ram": "16GB",
+      "memory": "512GB SSD",
+      "screen": "15.4in Display",
+      "weight": "1.83kg"
+    },
+    {
+      "id": 13,
+      "title": "Dell XPS Core i7 10th Gen",
+      "img": "dell-xps.jpeg",
+      "category": "laptop",
+      "price": 257000,
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "memory": "1TB SSD",
+      "screen": "17in Display",
+      "weight": "2.11kg"
+    },
+    {
+      "id": 14,
+      "title": "Dell Inspiron Core i5 10th Gen",
+      "img": "dell-inspiron.jpeg",
+      "category": "laptop",
+      "price": 66000,
+      "processor": "Intel Core i5 10th Gen",
+      "ram": "8GB",
+      "memory": "512GB SSD",
+      "screen": "14in Display",
+      "weight": "1.43kg"
+    },
+    {
+      "id": 15,
+      "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+      "img": "lenovo-ideapad.jpeg",
+      "category": "laptop",
+      "price": 31000,
+      "processor": "Intel Core i3 7th Gen",
+      "ram": "4GB",
+      "memory": "1TB HDD",
+      "screen": "15.6in Display",
+      "weight": "1.85kg"
+    },
+    {
+      "id": 16,
+      "title": "Lenovo ThinkPad x390 Core i7 10th Gen",
+      "img": "lenovo-thinkpad.jpeg",
+      "category": "laptop",
+      "price": 130000,
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "8GB",
+      "memory": "512GB SSD",
+      "screen": "13.3in Display",
+      "weight": "1.29kg"
+    },
+    {
+      "id": 17,
+      "title": "boAt Storm Smartwatch",
+      "img": "boat-storm.jpeg",
+      "category": "smartwatch",
+      "price": 2500,
+      "sensor": "Accelerometer, Optical Heart Rate Sensor, G-sensor",
+      "battery": "Upto 8 to 10 Days",
+      "screen": "1.3in Display",
+      "water_depth": "50m"
+    },
+    {
+      "id": 18,
+      "title": "Realme Classic Watch",
+      "img": "realme-classic.jpeg",
+      "category": "smartwatch",
+      "price": 3000,
+      "sensor": "3-axis Accelerometer, Heart Rate Sensor, Rotor Vibration Motor, IP68(1.5m) Water Resistance Rating",
+      "battery": "Upto 9 Days",
+      "screen": "1.6in Display",
+      "water_depth": "1.5m"
+    },
+    {
+      "id": 19,
+      "title": "Apple Watch Series 6",
+      "img": "apple-watch.jpeg",
+      "category": "smartwatch",
+      "price": 52900,
+      "sensor": "Blood Oxygen Sensor, Electrical Heart Sensor, Optical Heart Sensor (2nd Gen), Altimeter, Compass, Gyroscope, Accelerometer, Ambient Light Sensor",
+      "battery": "Upto 18 Hours",
+      "screen": "1.7in Display",
+      "water_depth": "50m"
+    },
+    {
+      "id": 20,
+      "title": "Samsung 80cm (32 inch) HD Ready LED Smart TV",
+      "img": "samsung-tv.jpeg",
+      "category": "tv",
+      "price": 16000,
+      "speaker": "2 20W Dolby Digital Plus",
+      "connectivity": "2 HDMI + 1 USB",
+      "screen": "32in LED HD Ready Display",
+      "screen_resolution": "1366 x 768"
+    },
+    {
+      "id": 21,
+      "title": "Vu Premium 108cm (43 inch) Full HD LED Smart Android TV",
+      "img": "vu-tv.jpeg",
+      "category": "tv",
+      "price": 25000,
+      "speaker": "2 24W Dolby Digital and DTS Studio Sound",
+      "connectivity": "2 HDMI + 2 USB",
+      "screen": "43in LED Full HD Display",
+      "screen_resolution": "1920 x 1080"
+    },
+    {
+      "id": 22,
+      "title": "Sony 80cm (32 inch) HD Ready LED Smart TV",
+      "img": "sony-tv.jpeg",
+      "category": "tv",
+      "price": 22000,
+      "speaker": "2 20W Open Baffle Speaker and S-Master Digital Amplifier",
+      "connectivity": "2 HDMI + 2 USB",
+      "screen": "32in LED HD Ready Display",
+      "screen_resolution": "1366 x 768"
+    },
+    {
+      "id": 23,
+      "title": "Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV",
+      "img": "mi-tv.jpeg",
+      "category": "tv",
+      "price": 14500,
+      "speaker": "2 20W DTS-HD with 5 Equalizer",
+      "connectivity": "3 HDMI + 2 USB",
+      "screen": "32in LED HD Ready Display",
+      "screen_resolution": "1366 x 768"
+    },
+    {
+      "id": 24,
+      "title": "JBL C150SI Wired Headset",
+      "img": "jbl-earphone.jpeg",
+      "category": "headphones",
+      "price": 800,
+      "connector": "3.5mm",
+      "cord_length": "1.2m",
+      "microphone": "Yes",
+      "wireless": "No"
+    },
+    {
+      "id": 25,
+      "title": "Sennheiser CX 80S Wired Headset",
+      "img": "sennheiser-cx80s.jpeg",
+      "category": "headphones",
+      "price": 1500,
+      "connector": "3.5mm",
+      "cord_length": "1.0m",
+      "microphone": "No",
+      "wireless": "No"
+    },
+    {
+      "id": 26,
+      "title": "Skullcandy Ink'd Headset",
+      "img": "skullcandy-earphone.jpeg",
+      "category": "headphones",
+      "price": 1150,
+      "connector": "3.5mm",
+      "cord_length": "1.2m",
+      "microphone": "Yes",
+      "wireless": "Yes"
+    },
+    {
+      "title": "Samsung Galaxy M41",
+      "img": "galaxy-m31.jpeg",
+      "category": "mobile",
+      "price": 21500.5,
+      "processor": "Exynos 9611",
+      "ram": "6GB",
+      "memory": "128GB",
+      "camera": "64MP + 8MP + 5MP + 5MP Rear Camera + 32MP Front Camera",
+      "screen": "6.55in AMOLED Display",
+      "battery": "5500mAh",
+      "id": 27
+    },
+    {
+      "title": "Lenovo Ideapad S155 Core i5 7th Gen",
+      "img": "lenovo-ideapad.jpeg",
+      "category": "laptop",
+      "price": 55500,
+      "processor": "Core i5 7th Gen",
+      "ram": "8 GB",
+      "memory": "1TB HDD + 256GB SSD",
+      "camera": "",
+      "screen": "15.6in Display",
+      "weight": "1.85 KG",
+      "id": 28
+    },
+    {
+      "title": "Realme Narzo 20s",
+      "img": "realme-narzo-20.jpeg",
+      "category": "mobile",
+      "price": 13500,
+      "processor": "MediaTek Helio G85",
+      "ram": "4GB",
+      "memory": "128GB",
+      "camera": "48MP + 8MP + 2MP Rear Camera + 8MP Front Camera",
+      "screen": "6.55in AMOLED Display",
+      "battery": "6500 mAh",
+      "id": 29
+    },
+    {
+      "title": "Apple Watch Series 6 Pro",
+      "img": "apple-watch.jpeg",
+      "category": "smartwatch",
+      "price": 65000,
+      "sensor": "Blood Oxygen Sensor, Electrical Heart Sensor, Optical Heart Sensor (2nd Gen), Altimeter, Compass, Gyroscope, Accelerometer, Ambient Light Sensor",
+      "battery": "Upto 24 Hours",
+      "water_depth": "150meter",
+      "screen": "1.9in Display",
+      "id": 30
+    },
+    {
+      "title": "boAt Airdopes 131 Bluetooth Headset",
+      "img": "boat-tlw.jpeg",
+      "category": "headphones",
+      "price": 1299,
+      "connector": "wireless",
+      "cord_length": "no cord present",
+      "microphone": "No",
+      "wireless": "Yes",
+      "id": 31
+    },
+    {
+      "title": "Samsung 108cm (43 inch) HD Ready LED Smart TV",
+      "img": "samsung-tv.jpeg",
+      "category": "tv",
+      "price": 29000,
+      "speaker": "2 20W Dolby Digital Plus",
+      "connectivity": "2 HDMI + 1 USB",
+      "screen_resolution": "1920 x 1080",
+      "screen": "43in LED Full HD AMOLED Display",
+      "id": 32
+    },
+    {
+      "title": "Realme Narzo 20s Pro",
+      "img": "realme-narzo-20.jpeg",
+      "category": "mobile",
+      "price": 26000,
+      "processor": "MediaTek Helio G95",
+      "ram": "8 GB",
+      "memory": "128GB",
+      "camera": "48MP + 2MP + 2MP Rear Camera + 8 MP Front Camera",
+      "screen": "6.72in Full HD Display",
+      "battery": "6000 mAh",
+      "id": 33
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Anik",
+      "lastName": "Datta",
+      "mobile": "1235697452",
+      "location": "Bangalore",
+      "email": "an@ya.co",
+      "password": "anik",
+      "id": 1
+    },
+    {
+      "firstName": "Anik",
+      "lastName": "Datta",
+      "mobile": "8563217896",
+      "location": "Bangalore",
+      "email": "an@gm.c",
+      "password": "anik",
+      "id": 2
+    }
+  ],
+  "top_products": [
+    {
+      "name": "Redmi 9 Prime",
+      "productId": 1,
+      "view_count": 3,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Realme Narzo 20",
+      "productId": 5,
+      "view_count": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Samsung Galaxy M41",
+      "productId": 27,
+      "view_count": 1,
+      "userId": 2,
+      "id": 27
+    },
+    {
+      "name": "Apple Watch Series 6 Pro",
+      "productId": 30,
+      "view_count": 1,
+      "userId": 2,
+      "id": 28
+    },
+    {
+      "name": "Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV",
+      "productId": 23,
+      "view_count": 2,
+      "userId": 2,
+      "id": 29
+    },
+    {
+      "name": "HP 15 Ryzen 3 Dual Core 3200U",
+      "productId": 10,
+      "view_count": 4,
+      "userId": 2,
+      "id": 30
+    },
+    {
+      "name": "Samsung Galaxy M31",
+      "productId": 3,
+      "view_count": 2,
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "name": "Apple Watch Series 6",
+      "productId": 19,
+      "view_count": 1,
+      "userId": 2,
+      "id": 32
+    },
+    {
+      "name": "Skullcandy Ink'd Headset",
+      "productId": 26,
+      "view_count": 1,
+      "userId": 2,
+      "id": 33
+    },
+    {
+      "name": "Lenovo Ideapad S145 Core i3 7th Gen",
+      "productId": 15,
+      "view_count": 1,
+      "userId": 2,
+      "id": 34
+    }
+  ]
+}

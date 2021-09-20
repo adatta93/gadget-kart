@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCategory Snapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ProductCategory
+      fetchProductErr=""
+      fetchProductsByCategory={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "Laptop",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      match={
+        Object {
+          "params": Object {
+            "category": "Laptop",
+          },
+        }
+      }
+      productByCatLoading={false}
+      products={
+        Array [
+          Object {
+            "category": "laptop",
+            "id": 15,
+            "img": "lenovo-ideapad.jpeg",
+            "memory": "1TB HDD",
+            "price": 31000,
+            "processor": "Intel Core i3 7th Gen",
+            "ram": "4GB",
+            "screen": "15.6in Display",
+            "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+            "weight": "1.85kg",
+          },
+        ]
+      }
+      productsOriginal={
+        Array [
+          Object {
+            "category": "laptop",
+            "id": 15,
+            "img": "lenovo-ideapad.jpeg",
+            "memory": "1TB HDD",
+            "price": 31000,
+            "processor": "Intel Core i3 7th Gen",
+            "ram": "4GB",
+            "screen": "15.6in Display",
+            "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+            "weight": "1.85kg",
+          },
+        ]
+      }
+      searchProduct={[MockFunction]}
+    >
+      <div
+        className="container my-4"
+      >
+        <h2
+          className="category-header"
+        >
+          Laptop
+        </h2>
+        <div
+          className="row"
+        >
+          <div
+            className="col-10"
+          >
+            <SearchBar
+              onSearch={[Function]}
+            >
+              <div
+                className="input-group search-container mb-3"
+              >
+                <input
+                  className="search-box"
+                  onChange={[Function]}
+                  placeholder="Search Product by Name"
+                  type="search"
+                  value=""
+                />
+                <div
+                  className="input-group-append"
+                >
+                  <button
+                    className="btn btn-search"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <i
+                      className="fas fa-search"
+                    />
+                  </button>
+                </div>
+              </div>
+            </SearchBar>
+          </div>
+          <div
+            style={
+              Object {
+                "position": "relative",
+              }
+            }
+          >
+            <button
+              aria-controls="customField"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              className="btn btn-dark"
+              data-target="#customField"
+              data-toggle="collapse"
+              id="cutomizeBtn"
+              style={
+                Object {
+                  "style": "calc(1.5em + .75rem)",
+                }
+              }
+              type="button"
+            >
+              <i
+                className="fas fa-cog"
+              />
+              <span
+                className="d-none d-md-inline-block ml-lg-3"
+              >
+                Customize
+              </span>
+            </button>
+            <div
+              className="collapse customize-collapse"
+              id="customField"
+            >
+              <Connect(CustomizeFields)
+                categoryName="Laptop"
+              >
+                <CustomizeFields
+                  categoryName="Laptop"
+                  fields={
+                    Object {
+                      "battery": true,
+                      "camera": false,
+                      "connector": true,
+                      "memory": false,
+                      "microphone": true,
+                      "processor": false,
+                      "ram": true,
+                      "screen": false,
+                      "sensor": true,
+                      "speaker": true,
+                      "weight": false,
+                      "wireless": true,
+                    }
+                  }
+                  updateCustomFields={[Function]}
+                >
+                  <div
+                    className="card"
+                  >
+                    <div
+                      className="card-header"
+                    >
+                      Customize Fields to Show
+                    </div>
+                    <div
+                      className="card-body"
+                    />
+                  </div>
+                </CustomizeFields>
+              </Connect(CustomizeFields)>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-12"
+          >
+            <ProductList
+              fields={
+                Object {
+                  "camera": false,
+                  "ram": false,
+                }
+              }
+              products={
+                Array [
+                  Object {
+                    "category": "laptop",
+                    "id": 15,
+                    "img": "lenovo-ideapad.jpeg",
+                    "memory": "1TB HDD",
+                    "price": 31000,
+                    "processor": "Intel Core i3 7th Gen",
+                    "ram": "4GB",
+                    "screen": "15.6in Display",
+                    "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+                    "weight": "1.85kg",
+                  },
+                ]
+              }
+            >
+              <div
+                className="product-list-container"
+              >
+                <div
+                  className="product-list"
+                >
+                  <Connect(Products)
+                    fields={
+                      Object {
+                        "camera": false,
+                        "ram": false,
+                      }
+                    }
+                    key="15"
+                    product={
+                      Object {
+                        "category": "laptop",
+                        "id": 15,
+                        "img": "lenovo-ideapad.jpeg",
+                        "memory": "1TB HDD",
+                        "price": 31000,
+                        "processor": "Intel Core i3 7th Gen",
+                        "ram": "4GB",
+                        "screen": "15.6in Display",
+                        "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+                        "weight": "1.85kg",
+                      }
+                    }
+                  >
+                    <Products
+                      dispatch={[Function]}
+                      fields={
+                        Object {
+                          "battery": true,
+                          "camera": false,
+                          "connector": true,
+                          "memory": false,
+                          "microphone": true,
+                          "processor": false,
+                          "ram": true,
+                          "screen": false,
+                          "sensor": true,
+                          "speaker": true,
+                          "weight": false,
+                          "wireless": true,
+                        }
+                      }
+                      product={
+                        Object {
+                          "category": "laptop",
+                          "id": 15,
+                          "img": "lenovo-ideapad.jpeg",
+                          "memory": "1TB HDD",
+                          "price": 31000,
+                          "processor": "Intel Core i3 7th Gen",
+                          "ram": "4GB",
+                          "screen": "15.6in Display",
+                          "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+                          "weight": "1.85kg",
+                        }
+                      }
+                    >
+                      <Link
+                        to={
+                          Object {
+                            "pathname": "/products/15",
+                            "state": Object {
+                              "prevPath": "/",
+                            },
+                          }
+                        }
+                      >
+                        <LinkAnchor
+                          href="/products/15"
+                          navigate={[Function]}
+                        >
+                          <a
+                            href="/products/15"
+                            onClick={[Function]}
+                          >
+                            <div
+                              className="card"
+                            >
+                              <div
+                                className="card-body"
+                              >
+                                <div
+                                  className="product-img-container"
+                                >
+                                  <img
+                                    alt="Lenovo Ideapad S145 Core i3 7th Gen"
+                                    className="card-img-top product-img"
+                                    src="/images/lenovo-ideapad.jpeg"
+                                  />
+                                </div>
+                                <h5
+                                  className="card-title"
+                                >
+                                  Lenovo Ideapad S145 Core i3 7th Gen
+                                </h5>
+                                <h6
+                                  className="card-subtitle"
+                                >
+                                  ₹31,000.00
+                                </h6>
+                                <div
+                                  className="my-1"
+                                  key="ram"
+                                >
+                                  <span
+                                    className="prod-prop-name"
+                                  >
+                                    RAM
+                                    :
+                                  </span>
+                                  <span
+                                    className="prod-prop-value"
+                                  >
+                                    4GB
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </Products>
+                  </Connect(Products)>
+                </div>
+              </div>
+            </ProductList>
+          </div>
+        </div>
+      </div>
+    </ProductCategory>
+  </Router>
+</Provider>
+`;

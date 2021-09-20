@@ -1,0 +1,32 @@
+.checkout-page-title {
+  line-height: 2;
+}
+
+.payment-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-lists div {
+  margin-bottom: 10px;
+}
+
+.payment-lists div input[type="radio"] {
+  width: 20px;
+  height: 18px;
+}
+
+.payment-name {
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 4px 0 #878787;
+  border-radius: 8px;
+}

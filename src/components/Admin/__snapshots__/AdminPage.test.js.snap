@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminPage Snapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AdminPage
+      deleteProduct={[MockFunction]}
+      fetchAllProducts={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      products={
+        Array [
+          Object {
+            "category": "laptop",
+            "id": 15,
+            "img": "lenovo-ideapad.jpeg",
+            "memory": "1TB HDD",
+            "price": 31000,
+            "processor": "Intel Core i3 7th Gen",
+            "ram": "4GB",
+            "screen": "15.6in Display",
+            "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+            "weight": "1.85kg",
+          },
+        ]
+      }
+    >
+      <div
+        className="container my-4"
+      >
+        <div
+          className="row align-items-center"
+        >
+          <div
+            className="col-md-6"
+          >
+            <h2>
+              Product Administration
+            </h2>
+          </div>
+          <div
+            className="col-md-6 d-flex justify-content-md-end"
+          >
+            <Link
+              className="btn btn-login"
+              to="/admin/add-product"
+            >
+              <LinkAnchor
+                className="btn btn-login"
+                href="/admin/add-product"
+                navigate={[Function]}
+              >
+                <a
+                  className="btn btn-login"
+                  href="/admin/add-product"
+                  onClick={[Function]}
+                >
+                  Add New Product
+                </a>
+              </LinkAnchor>
+            </Link>
+          </div>
+        </div>
+        <table
+          className="table table-striped admin-table"
+        >
+          <thead>
+            <tr>
+              <th>
+                Product Name
+              </th>
+              <th>
+                Category
+              </th>
+              <th
+                className="text-right"
+              >
+                Price
+              </th>
+              <th />
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              key="15"
+            >
+              <td>
+                Lenovo Ideapad S145 Core i3 7th Gen
+              </td>
+              <td>
+                laptop
+              </td>
+              <td
+                className="text-right"
+              >
+                ₹31,000.00
+              </td>
+              <td
+                className="text-center"
+              >
+                <Link
+                  className="btn btn-info prod-edit"
+                  to={
+                    Object {
+                      "pathname": "/admin/edit-product",
+                      "state": Object {
+                        "product": Object {
+                          "category": "laptop",
+                          "id": 15,
+                          "img": "lenovo-ideapad.jpeg",
+                          "memory": "1TB HDD",
+                          "price": 31000,
+                          "processor": "Intel Core i3 7th Gen",
+                          "ram": "4GB",
+                          "screen": "15.6in Display",
+                          "title": "Lenovo Ideapad S145 Core i3 7th Gen",
+                          "weight": "1.85kg",
+                        },
+                      },
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    className="btn btn-info prod-edit"
+                    href="/admin/edit-product"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="btn btn-info prod-edit"
+                      href="/admin/edit-product"
+                      onClick={[Function]}
+                    >
+                      <i
+                        className="fas fa-edit"
+                      />
+                      <span
+                        className="ml-2 d-none d-md-inline-block"
+                      >
+                        Edit
+                      </span>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+                <button
+                  className="btn btn-danger ml-md-2"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fas fa-trash"
+                  />
+                  <span
+                    className="ml-2 d-none d-md-inline-block"
+                  >
+                    Delete
+                  </span>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <Modal
+          show={false}
+        >
+          <div
+            className="modal d-none"
+          >
+            <div
+              className="modal-dialog modal-dialog-centered"
+            >
+              <div
+                className="modal-content"
+              >
+                <div
+                  className="modal-header"
+                >
+                  <h5
+                    className="modal-title"
+                  >
+                    Confirm
+                  </h5>
+                </div>
+                <div
+                  className="modal-body"
+                >
+                  <p>
+                    Are you sure you want to delete this product?
+                  </p>
+                </div>
+                <div
+                  className="modal-footer"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    DELETE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Modal>
+      </div>
+    </AdminPage>
+  </Router>
+</Provider>
+`;

@@ -1,0 +1,124 @@
+#homePageCarousel .carousel-item {
+  height: 32rem;
+}
+
+#homePageCarousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #0000005c;
+  height: 100%;
+  width: 100%;
+}
+
+/*===*/
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 0 7.5px 15px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.menu-item.large {
+  height: 380px;
+}
+
+.menu-item:first-child {
+  margin-right: 7.5px;
+}
+
+.menu-item:last-child {
+  margin-left: 7.5px;
+}
+
+.menu-item .background-image {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.menu-item .background-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.15;
+  transition: opacity 0.2s ease;
+}
+
+.menu-item:hover .background-image {
+  transform: scale(1.1);
+  transition: transform 1.5s linear;
+}
+
+.menu-item:hover .background-image:after {
+  opacity: 0.3;
+}
+
+.menu-item .content {
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.menu-item .content .title {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.menu-item .content .subtitle {
+  font-size: 18px;
+}
+
+.menu-item:hover .content {
+  opacity: 0.9;
+}
+
+@media (max-width: 760px) {
+  .menu-item {
+    min-width: 100%;
+    margin: 8px 0;
+  }
+
+  .menu-item:last-child {
+    margin-left: 0px;
+  }
+}

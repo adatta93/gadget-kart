@@ -1,0 +1,28 @@
+.search-container {
+  padding: 0px 15px;
+  border: 1px solid #d02102;
+  border-radius: 30px;
+  pointer-events: none;
+}
+
+.search-box {
+  flex: 1 1 auto;
+  width: 1%;
+  border: 0;
+  outline: none;
+  pointer-events: auto;
+}
+
+.search-container:focus-within {
+  box-shadow: 0 0 5px 0 #cc022f;
+  outline: none;
+}
+
+.search-container:hover {
+  box-shadow: 0 0 5px 0 #f94870;
+  outline: none;
+}
+
+.btn-search {
+  color: #d02102;
+}
