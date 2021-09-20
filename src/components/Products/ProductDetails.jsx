@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { history } from "../../App";
 import Loading from "../../Loading";
 import {
@@ -29,13 +29,13 @@ function ProductDetails({
   useEffect(() => {
     fetchProductDetails(id);
     console.log("hist", history);
-  }, [id, history]);
+  }, [fetchProductDetails, id, history]);
 
   useEffect(() => {
     if (product && product.hasOwnProperty("title")) {
       updateTopViewedProduct(product, userId);
     }
-  }, [product]);
+  }, [updateTopViewedProduct, product, userId]);
 
   const location = useLocation();
 

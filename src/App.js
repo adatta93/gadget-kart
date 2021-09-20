@@ -7,7 +7,6 @@ import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import AllProductsPage from "./components/Products/AllProductsPage";
 import ProductCategory from "./components/Products/ProductCategory";
-import Footer from "./Footer";
 import GuardedRoute from "./GuardedRoute";
 import Loading from "./Loading";
 

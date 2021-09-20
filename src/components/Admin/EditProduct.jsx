@@ -23,7 +23,7 @@ export function EditProduct({ editProduct }) {
     } else {
       history.push("/admin");
     }
-  }, []);
+  }, [location.state]);
 
   const handleSubmit = (values) => {
     setFormsubmitted(true);

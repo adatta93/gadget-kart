@@ -30,11 +30,9 @@ function Navbar({ loggedInUser, logout, cartItemCount }) {
           </li>
           <li className="nav-item dropdown">
             <a
-              href="#"
               className="nav-link dropdown-toggle"
               id="dropdownMenuButton"
               data-toggle="dropdown"
-              aria-haspopup="true"
               aria-expanded="false">
               Product Category
             </a>

@@ -22,7 +22,7 @@ export function ProductCategory({
 }) {
   useEffect(() => {
     fetchProductsByCategory(category);
-  }, [category]);
+  }, [fetchProductsByCategory, category]);
 
   const onSearch = (filterText) => {
     let filteredItems = productsOriginal.filter((item) =>

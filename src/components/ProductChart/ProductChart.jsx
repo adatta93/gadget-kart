@@ -23,7 +23,7 @@ function ProductChart({ topViewedProducts, getTopViewedProducts }) {
 
   useEffect(() => {
     getTopViewedProducts();
-  }, []);
+  });
 
   useEffect(() => {
     state.labels = [];

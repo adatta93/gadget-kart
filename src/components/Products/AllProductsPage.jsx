@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
 import Loading from "../../Loading";
 import { fetchAllProducts } from "../../redux/products/products.action";
 import "./Product.css";

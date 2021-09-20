@@ -25,7 +25,7 @@ function AddToCartButton({
         setShowIncDec(true);
       }
     }
-  });
+  }, [cartItems, item.id]);
 
   const handleQuantityIncrease = () => {
     updateCartQuantity(item, 1);
