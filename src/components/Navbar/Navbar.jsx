@@ -30,7 +30,7 @@ function Navbar({ loggedInUser, logout, cartItemCount }) {
           </li>
           <li className="nav-item dropdown">
 			<button 
-			  className="nav-link btn btn-light dropdown-toggle" 
+			  className="nav-link btn btn-link dropdown-toggle" 
 			  type="button" 
 			  id="dropdownMenuButton" 
 			  data-toggle="dropdown"
